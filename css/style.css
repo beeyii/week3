@@ -15,13 +15,18 @@ p {
     text-align: left;
 }
 
+a{
+    text-decoration: none;
+    color: navy;
+}
+
 .header {
     padding-bottom: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: navy;
+.header img {
+    height: 25vh;
+    width: 35vh;
 }
 
 .h1_brian {
