@@ -1,2 +1,2 @@
 # week3
-More CSS
+More CSS; Positioning with Grid and Flexbox.

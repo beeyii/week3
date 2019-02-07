@@ -20,20 +20,25 @@ a{
     color: navy;
 }
 
+a:active, a:hover{
+    border-bottom: 2.5px solid gold;
+}
+
 .header {
     padding-bottom: 20px;
+    display: block;
 }
 
 .header img {
-    height: 25vh;
+    height: 30vh;
     width: 35vh;
 }
 
-.h1_brian {
+.h_brian {
     display: block;
     font-size: 26px;
     position: relative;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .h_intro {
@@ -42,17 +47,39 @@ a{
     font-family: fantasy;
 }
 
-.h2_childhood {
+.h_general {
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     padding-top: 10px;
-    text-align: left;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .current{
 	text-transform: uppercase;
-	color: rgb(227, 194, 28);
+    color: rgb(227, 194, 28);
+}
+
+.current img {
+    width: 3vh;
+    height: 2vh;
+}
+
+
+.navy_container {
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.navy_container img{
+    width: 35vh;
+    height: 35vh;
+    align-self: stretch;
+    justify-self: center;
 }
 
 .container {
@@ -60,7 +87,8 @@ a{
     padding-top: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-columns: 2fr 2fr 2fr 1.5fr;
+    /* grid-template-columns: 2fr 2fr 2fr 1.5fr; */
+    grid-template-columns: 1fr;
     align-items: center;
 }
 
@@ -68,13 +96,56 @@ a{
     width:100%;
     align-self: stretch;
 }
+
 a.skip{
 	position: absolute;
 	left: -99999px;
-	top: 0px;
+    top: 0px;
+    display: block;
 }
 
 a.skip:focus{
 	position: relative;
-	left: 0px;
+    left: 0px;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.p_general{
+    margin: 0 auto; /* makes the div centered */
+    width: 75%;
+    padding-bottom: 15px;
+}
+
+.p_index {
+    margin: 0 auto; /* makes the div centered */
+    width: 75%;
+    text-align: center;
+}
+
+.ul_edu{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.li_edu {
+    margin: 0 auto; /* makes the div centered */
+    width: 25%;
+    text-align: left;
+    list-style-type: square;
+}
+
+.p_contact {
+    font-size: 20px;
+    margin: 0 auto; /* makes the div centered */
+    width: 75%;
+}
+
+.p_contact img {
+    width: 3%;
+    align-self: fill;
+}
+
+.foot {
+    padding: 15px;
 }
