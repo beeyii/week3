@@ -25,7 +25,7 @@ a:active, a:hover{
 }
 
 .header {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     display: block;
 }
 
@@ -42,6 +42,8 @@ a:active, a:hover{
 }
 
 .h_intro {
+    margin: 0 auto; /* makes the div centered */
+    width: 65%;
     font-size: 18px;
     font-weight: normal;
     font-family: fantasy;
@@ -82,7 +84,19 @@ a:active, a:hover{
     justify-self: center;
 }
 
-.container {
+.container_flexbox {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container_flexbox img{
+    width: 40%;
+    align-self: center;
+}
+
+.container_grid {
     display: grid;
     padding-top: 10px;
     grid-column-gap: 10px;
@@ -92,7 +106,7 @@ a:active, a:hover{
     align-items: center;
 }
 
-.container img{
+.container_grid img{
     width:100%;
     align-self: stretch;
 }
@@ -136,12 +150,19 @@ a.skip:focus{
 }
 
 .p_contact {
+    margin: 0 auto; /* makes the div centered */
+    width: 75%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.p_links {
     font-size: 20px;
     margin: 0 auto; /* makes the div centered */
     width: 75%;
 }
 
-.p_contact img {
+.p_links img {
     width: 3%;
     align-self: fill;
 }
