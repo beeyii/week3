@@ -44,15 +44,16 @@ a:active, a:hover{
 .h_intro {
     margin: 0 auto; /* makes the div centered */
     width: 65%;
-    font-size: 18px;
+    font-size: 4vmin;
     font-weight: normal;
     font-family: fantasy;
+    padding: 10px
 }
 
 .h_general {
     display: block;
     font-family: 'Gentium Basic', serif;
-    font-size: 24px;
+    font-size: 5vmin;
     padding-top: 10px;
     text-align: center;
     text-decoration: underline;
@@ -72,7 +73,7 @@ a:active, a:hover{
 
 .navy_container {
     display: grid;
-    padding-top: 10px;
+    padding: 10px;
     grid-template-columns: 1fr;
     align-items: center;
 }
@@ -101,7 +102,7 @@ a:active, a:hover{
     padding-top: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    /* grid-template-columns: 2fr 2fr 2fr 1.5fr; */
+    /* grid-template-columns: 2fr 2fr 2fr 1.5fr;  will use for computer maybe media query*/
     grid-template-columns: 1fr;
     align-items: center;
 }
@@ -128,7 +129,7 @@ a.skip:focus{
 .p_general{
     margin: 0 auto; /* makes the div centered */
     width: 75%;
-    padding-bottom: 15px;
+    padding-bottom: 4vmin;
 }
 
 .p_index {
@@ -139,12 +140,12 @@ a.skip:focus{
 
 .ul_edu{
     margin: 0 auto;
-    padding: 0px;
+    padding: 0 auto;
 }
 
 .li_edu {
     margin: 0 auto; /* makes the div centered */
-    width: 20%;
+    width: 35vw;
     text-align: left;
     list-style-type: square;
 }
@@ -157,14 +158,17 @@ a.skip:focus{
 }
 
 .p_links {
-    font-size: 20px;
+    font-size: 4vmin;
     margin: 0 auto; /* makes the div centered */
-    width: 75%;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
 }
 
 .p_links img {
-    width: 3%;
-    align-self: fill;
+    width: 8%;
+    align-self: stretch;
+    vertical-align: middle;
 }
 
 .foot {
