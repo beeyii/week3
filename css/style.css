@@ -51,8 +51,8 @@ a:active, a:hover{
 
 .h_general {
     display: block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-family: 'Gentium Basic', serif;
+    font-size: 24px;
     padding-top: 10px;
     text-align: center;
     text-decoration: underline;
@@ -85,15 +85,15 @@ a:active, a:hover{
 }
 
 .container_flexbox {
-    width: 80%;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .container_flexbox img{
-    width: 40%;
-    align-self: center;
+    width: 50%;
 }
 
 .container_grid {
@@ -144,7 +144,7 @@ a.skip:focus{
 
 .li_edu {
     margin: 0 auto; /* makes the div centered */
-    width: 25%;
+    width: 20%;
     text-align: left;
     list-style-type: square;
 }
