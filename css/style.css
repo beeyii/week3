@@ -94,7 +94,8 @@ a:active, a:hover{
 }
 
 .container_flexbox img{
-    width: 50%;
+    width: 50vmin;
+    height: 35vmin;
 }
 
 .container_grid {
@@ -102,7 +103,6 @@ a:active, a:hover{
     padding-top: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    /* grid-template-columns: 2fr 2fr 2fr 1.5fr;  will use for computer maybe media query*/
     grid-template-columns: 1fr;
     align-items: center;
 }
@@ -132,10 +132,22 @@ a.skip:focus{
     padding-bottom: 4vmin;
 }
 
+p.p_general::first-letter {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    font-size: 150%;
+}
+
 .p_index {
     margin: 0 auto; /* makes the div centered */
     width: 75%;
     text-align: center;
+}
+
+.p_title {
+    margin: 0 auto; /* makes the div centered */
+    width: 75%;
+    text-decoration: underline;
 }
 
 .ul_edu{
@@ -167,10 +179,16 @@ a.skip:focus{
 
 .p_links img {
     width: 8%;
-    align-self: stretch;
+    align-self: center;
     vertical-align: middle;
 }
 
 .foot {
     padding: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+    .container_grid{
+    grid-template-columns: 2fr 2fr 2fr 1.5fr;
+    }
 }
