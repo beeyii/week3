@@ -60,6 +60,10 @@ a:active, a:hover{
     font-weight: bold;
 }
 
+.nav_bar{
+    font-weight: bold;
+}
+
 .current{
     text-transform: uppercase;
     -webkit-text-stroke: 0.5px black;
