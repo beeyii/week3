@@ -164,6 +164,7 @@ p.p_general::first-letter {
     margin: 0 auto;
     padding: 0 auto;
     font-style: italic;
+    font-weight: bold;
 }
 
 .li_edu {
@@ -172,6 +173,7 @@ p.p_general::first-letter {
     text-align: left;
     list-style-type: square;
     font-style: normal;
+    font-weight: normal;
 }
 
 .p_contact {
