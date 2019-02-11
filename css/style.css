@@ -66,8 +66,8 @@ a:active, a:hover{
 
 .current{
     text-transform: uppercase;
-    -webkit-text-stroke: 0.8px black;
-    color: rgb(222, 188, 21);
+    -webkit-text-stroke: 0.2px goldenrod;
+    color: black;
 }
 
 .current img {
