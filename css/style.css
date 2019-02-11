@@ -21,7 +21,7 @@ a{
 }
 
 a:active, a:hover{
-    border-bottom: 2.5px solid gold;
+    border-bottom: 2.5px groove gold;
 }
 
 .header {
@@ -82,7 +82,7 @@ a:active, a:hover{
 .navy_container img{
     width: 35vh;
     height: 35vh;
-    align-self: stretch;
+    align-self: center;
     justify-self: center;
 }
 
@@ -91,7 +91,7 @@ a:active, a:hover{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
 }
 
 .container_flexbox img{
@@ -111,6 +111,15 @@ a:active, a:hover{
 .container_grid img{
     width:100%;
     align-self: stretch;
+}
+
+a.pics:active, a.pics:hover{
+    position: relative;
+    width: 90%;
+    border-radius: 5%;
+    border: 4px double gold;
+    cursor: zoom-in;
+    padding: 5%;
 }
 
 a.skip{
